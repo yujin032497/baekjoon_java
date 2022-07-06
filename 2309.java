@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.io.IOException;
 
-public class backjoon2309 {
+public class Main {
 	
 	public static void main(String args[]) throws IOException {
 		int i, j, sum = 0;
