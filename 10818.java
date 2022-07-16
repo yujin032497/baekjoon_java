@@ -31,6 +31,6 @@ public class Main {
 		Arrays.sort(arr);
 		
     		//출력
-		System.out.printf("%d %d",arr[0], arr[arr.length-1]);
+		System.out.printf("%d %d",arr[0], arr[arr.length-1]); //최소: 제일 앞쪽, 최대: 제일 뒤쪽
 	}
 }
