@@ -21,16 +21,16 @@ public class Main {
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-    //정수입력
+    		//정수입력
 		for(int i=0; i<N; i++) {
 			
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 		
-    //오름차순 정렬
+    		//오름차순 정렬
 		Arrays.sort(arr);
 		
-    //출력
+    		//출력
 		System.out.printf("%d %d",arr[0], arr[arr.length-1]);
 	}
 }
