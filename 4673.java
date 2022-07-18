@@ -29,14 +29,15 @@ public class Main {
 				}
 				
 				if(i_num <= 10000) N[i_num] = 1; //10000보다 작거나 같으면 원하는 범위값내이다.
-                                         //해당 인덱스에 1 할당
+                                         			 //해당 인덱스에 1 할당
 			}
 			
 		}
 		
 		for(int i=1; i<N.length; i++) {
 			
-			if(N[i]==0) System.out.println(i); //값이 0인 경우 = 
+			if(N[i]==0) System.out.println(i); //값이 0인 경우 = 셀프넘버
+			
 		}
 	}
 }
