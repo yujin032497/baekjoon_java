@@ -24,7 +24,7 @@ public class Main {
 				sum+=point; //+1증가된 점수를 계속 더하기
 			}
 			
-			System.out.println(sum); //
+			System.out.println(sum); //출력
 		}
 		
 	}
