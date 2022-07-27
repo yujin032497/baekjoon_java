@@ -16,9 +16,9 @@ public class Main {
 		int N = Integer.parseInt(st.nextToken()); //끊어진 기타줄
 		int M = Integer.parseInt(st.nextToken()); //브랜드 개수
 		
-        //세트 가격, 낱개 가격 초기화는 1000
+        	//세트 가격, 낱개 가격 초기화는 1000 (가격은 1000보다 작거나 같을 수 있으므로)
 		int min_unit_price = 1000, min_set_price = 1000;
-		int price = 1000; //최종 최소 가격
+		int price = Integer.MAX_VALUE; //최종 최소 가격
 		
 		for(int i=0; i<M; i++) {
 			st = new StringTokenizer(br.readLine());
