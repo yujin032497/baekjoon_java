@@ -1,3 +1,6 @@
+// 2022-08-11
+// 체스판 다시 칠하기
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
