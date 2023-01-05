@@ -1,4 +1,4 @@
-// 2022-01-05
+// 2023-01-05
 // 엄청난 부자2
 
 import java.math.BigInteger;
